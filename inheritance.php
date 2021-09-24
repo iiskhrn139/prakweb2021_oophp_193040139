@@ -43,7 +43,7 @@ class Produk {
         }
 
     }
-    class Game extend Produk {
+    class Game extends Produk {
         public function gerInfoProduk(){
             $str = " Game : {$this->judul} | {$this->getLabel()} (Rp.{$this->harga}) ~ {$this->waktuMain} jam.";
             return $str;
